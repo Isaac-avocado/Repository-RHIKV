@@ -4,10 +4,10 @@ export class GameScene extends Phaser.Scene {
     }
 
     preload() {
-        this.load.image('logo', 'assets/images/logo.png');
+        this.load.image('interior', 'assets/images/interior.png');
     }
 
     create() {
-        this.add.image(110, 110, 'logo');
+        this.add.image(400, 250, 'interior');
     }
 }
