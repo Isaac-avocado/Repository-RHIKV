@@ -8,6 +8,13 @@ const config = {
     type: Phaser.AUTO,
     width: windowWidth,
     height: windowHeight,
+    physics: {
+        default: 'arcade',
+        arcade: {
+            gravity: { y: 300},
+            debug: false
+        }
+    },
     scene: [MenuScene, GameScene]
 };
 
